@@ -49,6 +49,7 @@ Le serveur a pas mal de responsabilités, donc je les regroupe par leurs rôles 
 - [x] Stockage et envoi des cartes d'actions
 
 **Simulateur**
+
 Le but de cette partie et de créer une interface permettant l’échange d’informations entre le serveur et un simulateur quelconque, qui respecte le format des donnes d’entrée et de sortie. L’idée est de mettre toutes les actions d’un tour dans le fichier, appeler le simulateur a la fin de tour ; le simulateur va mettre à jour la grille et les stats des joueurs dans l’autre fichier, le serveur va attendre dès qu’il finit à travailler à envoyer la nouvelle information aux joueurs.
 - [ ] Mettre les action sous un bon format dans le fichier
 - [ ] Appeler le simulateur
